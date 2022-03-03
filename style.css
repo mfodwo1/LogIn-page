@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(192, 76, 139, 0.8), rgba(34, 76, 176, 0.8)), url('image/windows-vista.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+
+.container{
+    position: relative;
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 10%;
+    justify-items: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+h1{
+    text-align: center;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+input[type="email"], input[type="password"]{
+    height: 15px;
+    width: 200px;
+    padding: 5px;
+    border-style: hidden;
+    background-color: #dcdada;
+}
+ 
+input:focus{
+    outline: none;
+}
+
+.form-group{
+    margin: 10px 0;
+    margin-left: 13%;
+    
+}
+.btn{
+    width: 210px;
+    padding: 5px;
+    margin-left: 13%;
+    margin-top: 5px;
+    background-color: #c54a89;
+    color: #fff;
+    border: none;
+}
+
+.btn:hover{
+    background-position: right center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    padding: 7px;
+}
+
+.sm-text{
+    font-size: 12px;
+}
+
+.arrange{
+display: flex;
+margin-top: 20px;
+margin-left: 10%;
+font-size: 14px;
+}
+
+ .icon-img{
+    width: 20px;
+}
+
+.social-2{
+    margin-left: 35px;
+}
+
+#footer{
+    padding-top: 30%;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+
+
